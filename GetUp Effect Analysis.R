@@ -60,7 +60,7 @@ unique(tpp$DivisionNm)
 tpp <- tpp %>%
   filter(StateAb == "QLD")
 
-# Now to add a special redistribution adjustment variable, as queensland had redistributions in 2018 and 2009
+# Now to add a redistribution adjustment variable, as Queensland had redistributions in 2018 and 2009
 # This variable comes from Antony Green pendulum estimates from 2010 (https://www.abc.net.au/elections/federal/2010/guide/stateindex.htm#QLD)
 # And Antony Green estimates from 2019 (https://www.abc.net.au/news/elections/federal-redistribution-2018/qld/)
 # Looking at the swing net estimated redistribution should help account for the adjustment in vote due to the redistribution
